@@ -1197,6 +1197,14 @@ body {
   border: none;
 }
 
+.paw-link--status:hover{
+  color: #FFBD54;
+}
+
+.paw-link--status:active{
+  opacity: 0.7;
+}
+
 
 /* ***********FEEDBACK START ************ */
 
