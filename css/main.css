@@ -1193,15 +1193,17 @@ body {
 }
 
 .paw-link--status {
+  display: inline-flex;
   margin: 0;
   border: none;
 }
 
-.paw-link--status:hover{
+.paw-link--status:hover {
   color: #FFBD54;
 }
 
-.paw-link--status:active{
+.paw-link--status:active {
+  color: var(--text-color-dark);
   opacity: 0.7;
 }
 
@@ -1576,15 +1578,14 @@ body {
   background-position: calc(50% + 510px) calc(-1.5%);
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
 
-  .service-hero{
+  .service-hero {
     background-image: url("../images/service-parrot@2x.png");
   }
 }
@@ -1737,7 +1738,7 @@ only screen and (                min-resolution: 2dppx) {
   background-image: url("../images/ambulance.svg");
 }
 
-.service-hero__link{
+.service-hero__link {
   text-decoration: none;
 }
 
@@ -1749,12 +1750,12 @@ only screen and (                min-resolution: 2dppx) {
   color: var(--text-color-dark);
 }
 
-.service-hero__item-descr{
+.service-hero__item-descr {
   margin: 0;
   margin-bottom: 26px;
 }
 
-.service-hero__learn-more{
+.service-hero__learn-more {
   display: inline-block;
   padding: 15px 29px;
   font-weight: var(--font-weight-medium);
@@ -1765,10 +1766,10 @@ only screen and (                min-resolution: 2dppx) {
   transition: background-color 0.2s ease;
 }
 
-.service-hero__item:nth-child(even) .service-hero__learn-more{
+.service-hero__item:nth-child(even) .service-hero__learn-more {
   background-color: #78C0DE;
 }
 
-.service-hero__item:nth-child(odd) .service-hero__learn-more:hover{
+.service-hero__item:nth-child(odd) .service-hero__learn-more:hover {
   background-color: #333333;
 }
