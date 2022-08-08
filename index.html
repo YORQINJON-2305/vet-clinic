@@ -71,14 +71,14 @@
                 <a class="header-end__link" href="#">Полезные Статьи</a>
               </li>
               <li class="header-end__item">
-                <a class="header-end__link" href="#">FAQ</a>
+                <a class="header-end__link" href="./faq.html">FAQ</a>
               </li>
               <li class="header-end__item">
                 <a class="header-end__link" href="#">Контакты</a>
               </li>
             </ul>
           </nav>
-          <a class="paw-link" href="#">Задать вопрос</a>
+          <button class="paw-btn paw-btn--open" type="button">Задать вопрос</button>
         </div>
       </div>
     </div>
@@ -389,7 +389,7 @@
           </li>
           <li class="site-footer__item">
             <a class="site-footer__link" href="#">Полезные Статьи</a>
-            <a class="site-footer__link" href="#">FAQ</a>
+            <a class="site-footer__link" href="./faq.html">FAQ</a>
             <a class="site-footer__link" href="#">Контакты</a>
           </li>
         </ol>
@@ -424,6 +424,35 @@
     </div>
   </footer>
   <!-- ======== SITE FOOTER FINISH ======== -->
+
+
+
+  <!-- ============ MODAL START ============ -->
+      <div class="modal">
+        <div class="modal__wrap">
+          <button class="modal__close-btn"></button>
+            <div class="modal__text-wrap">
+              <div class="modal__start">
+                <span class="modal__authorization">Авторизация:</span>
+                <button class="modal__with-btn modal__with-btn--google">Войти через Google</button>
+                <button class="modal__with-btn modal__with-btn--facebook">Войти через Facebook</button>
+              </div>
+              <div class="modal__end">
+                <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                    <h2 class="modal__form-title">Задать вопрос</h2>
+                    <input class="modal__form-input" type="text" name="user_name" aria-label="Enter your name" minlength="3"
+                      placeholder="Ваше имя" required />
+                    <textarea class="modal__form-message" name="user_message"
+                      placeholder="Опишите Ваш вопрос. Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                    <button class="modal__form-btn">Отправить </button>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+  <!-- ============ MODAL FINSIH ============ -->
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
