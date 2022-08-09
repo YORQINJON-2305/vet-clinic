@@ -347,7 +347,7 @@ body {
 .header-end__link {
   display: inline-block;
   margin-top: 15px;
-  padding-bottom: 11px;
+  padding-bottom: 12px;
   font-weight: var(--font-weight-medium);
   color: var(--text-color-dark);
   border-bottom: 4px solid transparent;
@@ -1195,17 +1195,18 @@ body {
   margin-bottom: 34px;
 }
 
-.paw-link--status {
+.paw-btn--status {
   display: inline-flex;
   margin: 0;
   border: none;
+  transition: color 0.3s ease;
 }
 
-.paw-link--status:hover {
+.paw-btn--status:hover {
   color: #FFBD54;
 }
 
-.paw-link--status:active {
+.paw-btn--status:active {
   color: var(--text-color-dark);
   opacity: 0.7;
 }
