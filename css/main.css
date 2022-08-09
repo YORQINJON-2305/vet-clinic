@@ -2007,6 +2007,16 @@ body {
   animation: openModal 1s;
 }
 
+@keyframes openModal {
+  0% {
+    transform: translateY(-700px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .modal__text-wrap {
   display: flex;
   justify-content: space-between;
@@ -2152,15 +2162,6 @@ body {
 }
 
 
-@keyframes openModal {
-  0% {
-    transform: translateY(-700px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 /* *********** BACKGROUND IMG 2X ************** */
 
