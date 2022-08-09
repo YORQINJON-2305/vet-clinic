@@ -1976,6 +1976,171 @@ body {
 }
 
 
+
+/* ******************************************************* */
+/* ***************** CONTACT PAGE START ****************** */
+/* ******************************************************* */
+
+
+.contact-hero {
+  padding: 118px 0px 131px 180px;
+  background-image: url("../images/contact-hero.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 560px) calc(50% - 50px);
+}
+
+.contact-hero__text-wrap {
+  width: 447px;
+}
+
+.contact-hero__title {
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--text-color-dark);
+}
+
+.contact-hero__descr {
+  margin: 0;
+  margin-bottom: 117px;
+  line-height: 20px;
+  color: var(--text-color-gray);
+}
+
+.contact-hero__list {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-hero__item {
+  width: 153px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-hero__item::before {
+  display: block;
+  margin-bottom: 27px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.contact-hero__item:first-child:before {
+  width: 73px;
+  height: 73px;
+  background-image: url("../images/contact-location.svg");
+}
+
+.contact-hero__item:nth-child(2):before {
+  width: 76px;
+  height: 71px;
+  background-image: url("../images/contact-calendar.svg");
+}
+
+.contact-hero__item:nth-child(2) {
+  margin: 0px 118px;
+}
+
+.contact-hero__item:last-child:before {
+  width: 46px;
+  height: 73px;
+  background-image: url("../images/contact-phone.svg");
+}
+
+.contact-hero__adress {
+  font-style: normal;
+}
+
+.contact-hero__link {
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color-dark);
+  text-decoration: none;
+}
+
+.contact-hero__time {
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color-dark);
+  line-height: 21px;
+}
+
+.contact-hero__strong {
+  margin-right: 5px;
+}
+
+.contact-hero__call-link {
+  margin-bottom: 9px;
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color-dark);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-hero__call-link:last-child {
+  margin-bottom: 0;
+}
+
+.contact-hero__call-link:hover {
+  color: #FFBD54;
+}
+
+.contact-hero__call-link:active {
+  color: var(--text-color-dark);
+  opacity: 0.6;
+}
+
+/* ************** CONTACT FIND US START **************** */
+
+
+.find-us {
+  position: relative;
+  margin-bottom: 206px;
+  padding-top: 390px;
+  background-image: url("../images/contact-trace.png");
+  background-repeat: no-repeat;
+  background-size: 934px 329px;
+  background-position: calc(50% + 210px) calc(50% - 200px);
+}
+
+.find-us__dog-wrap{
+  position: absolute;
+  width: 433px;
+  height: 342px;
+  top: 216px;
+  right: calc(50% + 290px);
+  background-image: url("../images/find-us-dog.png");
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size:  433px 342px;
+
+}
+
+.find-us__title-wrap {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.find-us__title {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--text-color-dark);
+}
+
+.find-us__location {
+  display: flex;
+  justify-content: center;
+}
+
+.find-us__img{
+  height: 466px;
+}
+
 /* *************** MODAL START ************* */
 
 .modal {
@@ -2182,9 +2347,16 @@ only screen and (min-resolution: 2dppx) {
     background-size: 569px 466px, 654px 652px;
   }
 
+  .find-us{
+    background-image: url("../images/contact-trace@2x.png");
+  }
+
+  .find-us__dog-wrap{
+    background-image: url("../images/find-us-dog@2x.png");
+  }
+
   .modal__wrap {
     background-image: url("../images/modal-bg@2x.png"), url("../images/modal-dog@2x.png");
     background-size: cover, 350px 325px;
-
   }
 }
