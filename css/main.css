@@ -125,6 +125,7 @@ body {
 
 /* *********** HEADAR START  ****************/
 
+
 .header-top {
   padding: 13px 0px;
   background-color: #F9F8F8;
@@ -2107,7 +2108,7 @@ body {
   background-position: calc(50% + 210px) calc(50% - 200px);
 }
 
-.find-us__dog-wrap{
+.find-us__dog-wrap {
   position: absolute;
   width: 433px;
   height: 342px;
@@ -2115,8 +2116,8 @@ body {
   right: calc(50% + 290px);
   background-image: url("../images/find-us-dog.png");
   background-repeat: no-repeat;
-  background-position:  center;
-  background-size:  433px 342px;
+  background-position: center;
+  background-size: 433px 342px;
 
 }
 
@@ -2138,9 +2139,211 @@ body {
   justify-content: center;
 }
 
-.find-us__img{
+.find-us__img {
   height: 466px;
 }
+
+
+
+/* *********************************** */
+/* ***** ABOUT PAGE  START ***** */
+/* *********************************** */
+
+/* ABOUT HERO START */
+
+.about-hero {
+  padding-top: 117px;
+  padding-bottom: 309px;
+  padding-left: 180px;
+  background-image: url("../images/about-hero.png"), url("../images/about-woman.png");
+  background-repeat: no-repeat;
+  background-size: 668px 235px, 448px 545px;
+  background-position: calc(50% - 340px) calc(50% + 130px), calc(50% + 400px) calc(50% + 12px);
+}
+
+.about-hero__text-wrap {
+  width: 411px;
+}
+
+.about-hero__title {
+  margin: 0;
+  margin-bottom: 22px;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--text-color-dark);
+}
+
+.about-hero__descr {
+  line-height: 20px;
+  color: var(--text-color-gray);
+
+}
+
+/* OUR CLINIC START */
+
+.our-clinic__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.our-clinic__img {
+  height: 499px;
+  flex-shrink: 0;
+}
+
+.our-clinic__text-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 815px;
+  background-image: url("../images/our-clinic-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+}
+
+.our-clinic__text {
+  width: 557px;
+}
+
+.our-clinic__descr {
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--text-color-gray);
+}
+
+.our-clinic__descr-orange {
+  color: #FFBD54;
+}
+
+/* ****** CUTTING SERVICE START ******** */
+
+.cut-service {
+  padding-top: 128px;
+  padding-bottom: 145px;
+  padding-left: 180px;
+  background-image: url("../images/cut-service-dog.png");
+  background-repeat: no-repeat;
+  background-size: 797px 532px;
+  background-position: calc(50% + 360px) calc(0%);
+}
+
+.cut-service__descr-wrap {
+  width: 494px;
+}
+
+.cut-service__descr {
+  margin: 0;
+  line-height: 20px;
+  color: #949494;
+}
+
+.cut-service__descr:last-child {
+  margin-top: 19px;
+  margin-bottom: 221px;
+}
+
+.cut-service__descr-color {
+  color: #78C0DE;
+}
+
+.cut-service__wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cut-service__title-wrap {
+  width: 416px;
+  flex-shrink: 0;
+}
+
+.cut-service__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 46px;
+  line-height: 48px;
+  color: var(--text-color-dark);
+}
+
+.cut-service__title-orange {
+  color: #FFBD54;
+}
+
+.cut-service__text {
+  margin: 0;
+  margin-bottom: 88px;
+  line-height: 20px;
+  color: var(--text-color-gray);
+}
+
+.cut-service__symbol-wrap {
+  display: flex;
+}
+
+.cut-service__arrow-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82px;
+  margin-right: 75px;
+}
+
+.cut-service__arrow-left {
+  display: inline-block;
+  width: 9px;
+  height: 16.66px;
+  background-image: url("../images/arrow-left.svg");
+}
+
+.cut-service__arrow-right {
+  display: inline-block;
+  width: 9px;
+  height: 16.66px;
+  background-image: url("../images/arrow-right.svg");
+}
+
+.cut-service__fraction {
+  position: relative;
+  width: 37px;
+  height: 42px;
+  background-image: url("../images/slash.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cut-service__fraction-start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--text-color-dark);
+}
+
+.cut-service__fraction-end {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: var(--font-weight-medium);
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text-color-gray);
+}
+
+.cut-service__list {
+  position: relative;
+  right: -170px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cut-service__item {
+  margin-right: 20px;
+}
+
 
 /* *************** MODAL START ************* */
 
@@ -2149,14 +2352,15 @@ body {
   top: 0;
   left: 0;
   z-index: 3;
-  display: none;
   width: 100%;
   min-height: 100%;
   background-color: #fefefee6;
+  transform: translateY(-100%);
+  transition: ease-in-out 0.2s;
 }
 
 .open-modal {
-  display: block;
+  transform: translateY(0%);
 }
 
 .modal__wrap {
@@ -2170,17 +2374,6 @@ body {
   background-repeat: no-repeat;
   background-position: center, calc(50% - 220px) calc(50% + 162px);
   background-color: #FFBD54;
-  animation: openModal 1s;
-}
-
-@keyframes openModal {
-  0% {
-    transform: translateY(-700px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
 }
 
 .modal__text-wrap {
@@ -2348,16 +2541,24 @@ only screen and (min-resolution: 2dppx) {
     background-size: 569px 466px, 654px 652px;
   }
 
-  .find-us{
+  .find-us {
     background-image: url("../images/contact-trace@2x.png");
   }
 
-  .find-us__dog-wrap{
+  .find-us__dog-wrap {
     background-image: url("../images/find-us-dog@2x.png");
   }
 
   .modal__wrap {
     background-image: url("../images/modal-bg@2x.png"), url("../images/modal-dog@2x.png");
     background-size: cover, 350px 325px;
+  }
+
+  .about-hero {
+    background-image: url("../images/about-hero@2x.png"), url("../images/about-woman@2x.png");
+  }
+
+  .cut-service {
+    background-image: url("../images/cut-service-dog@2x.png");
   }
 }
