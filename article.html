@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vet clinic</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  </head>
+
+  <body>
+    <!-- ======== HEADER START ======== -->
+    <header class="site-header">
+      <div class="site-headertop header-top">
+        <div class="container">
+          <div class="header-top__wrap">
+            <address class="header-top__adress">
+              <a
+                class="header-top__address-link"
+                href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B,+48%D0%B0,+%D0%9C%D0%B0%D1%80%D0%B8%D1%83%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+87500/@47.1075844,37.6424116,17z/data=!3m1!4b1!4m5!3m4!1s0x40e6e6701cd9c691:0xe9b99fd0268f089c!8m2!3d47.1075844!4d37.6424116"
+                target="blank"
+                >г. Мариуполь, проспект Победы, 48а</a
+              >
+            </address>
+            <ul class="header-top__call-list">
+              <li class="header-top__call-item">
+                <a class="header-top__call-link" href="tel:+0676347574"
+                  >(067) 634 - 75 - 74</a
+                >
+              </li>
+              <li class="header-top__call-item">
+                <a class="header-top__call-link" href="tel:+0637570131"
+                  >(0637) 57 - 01 - 31</a
+                >
+              </li>
+              <li class="header-top__call-item">
+                <a class="header-top__call-link" href="tel:+0982664389"
+                  >(098) 266 - 43 - 89</a
+                >
+              </li>
+            </ul>
+            <ul class="header-top__time-list">
+              <li class="header-top__time-item">
+                <time datetime="2022-08-03 18:00">
+                  <strong>Пн - Пт</strong>
+                  8:00 - 18:00
+                </time>
+              </li>
+              <li class="header-top__time-item">
+                <time datetime="2022-08-04 14:00">
+                  <strong>Сб - Вс</strong>
+                  8:00 - 14:00
+                </time>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- HEADER END START -->
+      <div class="site-header__header-end header-end">
+        <div class="container">
+          <div class="header-end__wrap">
+            <a class="site-logo" href="index.html">
+              <img src="./images/logo.svg" alt="Vet clinic logo" />
+            </a>
+            <nav class="header-end__nav">
+              <ul class="header-end__list">
+                <li class="header-end__item">
+                  <a class="header-end__link" href="./index.html">Главная</a>
+                </li>
+                <li class="header-end__item">
+                  <a class="header-end__link" href="#">О Клинике</a>
+                </li>
+                <li class="header-end__item">
+                  <a class="header-end__link" href="./service.html"
+                    >Наши Услуги</a
+                  >
+                </li>
+                <li class="header-end__item">
+                  <a class="header-end__link" href="#">Полезные Статьи</a>
+                </li>
+                <li class="header-end__item">
+                  <a class="header-end__link" href="./faq.html">FAQ</a>
+                </li>
+                <li class="header-end__item">
+                  <a class="header-end__link" href="./contact.html">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="paw-btn paw-btn--open" type="button">
+              Задать вопрос
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ======== HEADER FINISH ======== -->
+
+    <!-- ======== SITE MAIN START ======== -->
+    <main class="site-main">
+      <!-- ========= HERO START ============ -->
+      <section class="article-hero">
+        <div class="container">
+          <div class="article-hero__text-wrap">
+            <h2 class="article-hero__title">Полезные статьи</h2>
+            <div class="article-hero__descr-wrap">
+              <p class="article-hero__descr">
+                Узнать информацию о наших услугах, записаться на прием к врачу
+                или проконсультироваться вы можете по телефону, в любое удобное
+                для вас время.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========= HERO FINISH ============ -->
+
+      <!-- ============ FEATURES START ============= -->
+      <section class="features">
+        <div class="container">
+          <div class="features__box">
+            <img
+              class="features__img"
+              src="./images/features-double-dog.png"
+              width="558"
+              height="525"
+              srcset="
+                ./images/features-double-dog.png    1x,
+                ./images/features-double-dog@2x.png
+              "
+              alt="Two puppies running"
+            />
+            <div class="features__info-wrap">
+              <div class="features__lattice-wrap">
+                <a class="features__lattice" href="#">#собака</a>
+                <a class="features__lattice" href="#">#дом</a>
+                <a class="features__lattice features__lattice--end" href="#"
+                  >#уход</a
+                >
+                <time class="features__time" datetime="2020-08-29 15:40"
+                  >29.08.2020</time
+                >
+              </div>
+              <div class="features__text-wrap">
+                <div class="features__subtitle-wrap">
+                  <h3 class="features__subtitle">
+                    Перед тем как завести собаку
+                  </h3>
+                </div>
+                <p class="features__descr">
+                  Появление в доме котенка приятное и радосное событие. Но не
+                  всегда этот пушистый зверек берется от... заводчиков, Бивают и
+                  ситуации когда животное находят на улице и дают ему теплый
+                  дом. И первым вопросом, который возникает у новых хозяев – как
+                  определить возраст котенка. Появление в доме котенка.
+                </p>
+                <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+              </div>
+            </div>
+          </div>
+          <ul class="features__list">
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/mouse-cat.jpg"
+                width="305"
+                height="180"
+                srcset="./images/mouse-cat.jpg 1x, ./images/mouse-cat@2x.jpg 2x"
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-08-28 15:40"
+                    >28.08.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Ультразвуковая чистка зубов
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/ill-dog.jpg"
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">Когда привавать питомца?</h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/features-double-puppy.jpg"
+                width="305"
+                height="180"
+                srcset="
+                  ./images/features-double-puppy.jpg    1x,
+                  ./images/features-double-puppy@2x.jpg 2x
+                "
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Как правильно купать животных
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/mouse-cat.jpg"
+                width="305"
+                height="180"
+                srcset="./images/mouse-cat.jpg 1x, ./images/mouse-cat@2x.jpg 2x"
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Ультразвуковая чистка зубов
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/features-cat.jpg"
+                width="305"
+                height="180"
+                srcset="
+                  ./images/features-cat.jpg    1x,
+                  ./images/features-cat@2x.jpg 2x
+                "
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Ультразвуковая чистка зубов
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/features-rabbit.jpg"
+                width="305"
+                height="180"
+                srcset="
+                  ./images/features-rabbit.jpg    1x,
+                  ./images/features-rabbit@2x.jpg 2x
+                "
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">Когда привавать питомца?</h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/features-black-dog.jpg"
+                width="305"
+                height="180"
+                srcset="
+                  ./images/features-black-dog.jpg    1x,
+                  ./images/features-black-dog@2x.jpg 2x
+                "
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Как правильно купать животных
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <img
+                class="status__img"
+                src="./images/features-ill-dog.jpg"
+                width="305"
+                height="180"
+                srcset="
+                  ./images/features-ill-dog.jpg    1x,
+                  ./images/features-ill-dog@2x.jpg 2x
+                "
+                alt="A puppy receiving vaccinations"
+              />
+              <div class="status__item-text-wrap">
+                <div class="status__lattice-wrap">
+                  <a class="status__lattice" href="#">#собака</a>
+                  <a class="status__lattice" href="#">#дом</a>
+                  <a class="status__lattice status__lattice--end" href="#"
+                    >#уход</a
+                  >
+                  <time class="status__time" datetime="2020-07-21 15:40"
+                    >21.07.2020</time
+                  >
+                </div>
+                <div class="status__text-wrap">
+                  <div class="status__subtitle-wrap">
+                    <h3 class="status__subtitle">
+                      Ультразвуковая чистка зубов
+                    </h3>
+                  </div>
+                  <p class="status__descr status__descr--mb">
+                    Появление в доме котенка приятное и радосное событие. Но не
+                    всегда этот пушистый зверек берется от ...
+                  </p>
+                  <p class="status__descr status__descr--none">
+                    заводчиков, Бивают и ситуации когда животное находят на
+                    улице и дают ему теплый дом. И первым вопросом, который
+                    возникает у новых хозяев – как определить возраст котенка.
+                    Появление в доме котенка.
+                  </p>
+                  <a class="paw-btn paw-btn--status" href="#">Читать больше</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="features__load-wrap">
+            <button class="features__load-btn">Больше статей</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ======== SITE MAIN FINISH ======== -->
+
+    <!-- ======== SITE FOOTER START ======== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__wrap">
+          <a class="site-footer__logo" href="index.html">
+            <img src="./images/logo.svg" alt="Site logo" />
+          </a>
+          <ol class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">Главная</a>
+              <a class="site-footer__link" href="#">О Клинике</a>
+              <a class="site-footer__link" href="./service.html">Наши Услуги</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">Полезные Статьи</a>
+              <a class="site-footer__link" href="./faq.html">FAQ</a>
+              <a class="site-footer__link" href="./contact.html">Контакты</a>
+            </li>
+          </ol>
+          <div class="site-footer__time-wrap">
+            <div class="site-footer__time-box">
+              <time class="site-footer__time" datetime="2022-08-03 08:00">
+                <strong>Пн - Пт </strong>
+                8:00 - 18:00</time
+              >
+              <time class="site-footer__time" datetime="2022-08-03 08:00">
+                <strong>Сб - Вс </strong>
+                8:00 - 14:00</time
+              >
+            </div>
+          </div>
+          <address class="site-footer__address">
+            <a
+              class="site-footer__address-link"
+              href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B,+48%D0%B0,+%D0%9C%D0%B0%D1%80%D0%B8%D1%83%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+87500/@47.1075844,37.6424116,17z/data=!3m1!4b1!4m5!3m4!1s0x40e6e6701cd9c691:0xe9b99fd0268f089c!8m2!3d47.1075844!4d37.6424116"
+              target="blank"
+              >г. Мариуполь,
+              <br />
+              проспект Победы, 48а</a
+            >
+          </address>
+
+          <div class="site-footer__phone-wrap">
+            <ul class="site-footer__phone-list">
+              <li class="site-footer__phone-item">
+                <a class="site-footer__phone-link" href="tel:+0676347574"
+                  >(067) 634 - 75 - 74</a
+                >
+              </li>
+              <li class="site-footer__phone-item">
+                <a class="site-footer__phone-link" href="tel:+0637570131"
+                  >(0637) 57 - 01 - 31</a
+                >
+              </li>
+              <li class="site-footer__phone-item">
+                <a class="site-footer__phone-link" href="tel:+0982664389"
+                  >(098) 266 - 43 - 89</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span class="site-footer__copy"
+          >© 2020 example. All Rights Reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- ======== SITE FOOTER FINISH ======== -->
+
+    <!-- ============ MODAL START ============ -->
+    <div class="modal">
+      <div class="modal__wrap">
+        <button class="modal__close-btn"></button>
+        <div class="modal__text-wrap">
+          <div class="modal__start">
+            <span class="modal__authorization">Авторизация:</span>
+            <button class="modal__with-btn modal__with-btn--google">
+              Войти через Google
+            </button>
+            <button class="modal__with-btn modal__with-btn--facebook">
+              Войти через Facebook
+            </button>
+          </div>
+          <div class="modal__end">
+            <form
+              action="https://echo.htmlacademy.ru/courses"
+              method="post"
+              autocomplete="off"
+            >
+              <h2 class="modal__form-title">Задать вопрос</h2>
+              <input
+                class="modal__form-input"
+                type="text"
+                name="user_name"
+                aria-label="Enter your name"
+                minlength="3"
+                placeholder="Ваше имя"
+                required
+              />
+              <textarea
+                class="modal__form-message"
+                name="user_message"
+                placeholder="Опишите Ваш вопрос. Например: в каком возрасте можно прививать от бешенства?"
+              ></textarea>
+              <button class="modal__form-btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============ MODAL FINSIH ============ -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
