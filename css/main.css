@@ -2511,6 +2511,253 @@ body {
   content: "";
 }
 
+
+/* **************************************** */
+/* **** INSPECTION PAGE START **** */
+/* **************************************** */
+
+/* **** INSPECTION HERO START **** */
+
+.inspection-hero {
+  padding: 250px 0px;
+  background-image: url("../images/inspection-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ***** CHECKUP START ***** */
+
+.checkup {
+  padding-top: 33px;
+  padding-bottom: 174px;
+}
+
+.checkup__wrap {
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkup__text-wrap {
+  width: 640px;
+  margin-left: 200px;
+  margin-right: 143px;
+}
+
+.checkup__text-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.checkup__text-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkup__text-item:nth-child(2)::before {
+  display: block;
+  width: 3px;
+  height: 3px;
+  margin: 0px 8px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+  content: "";
+}
+
+.checkup__text-item:nth-child(2)::after {
+  display: block;
+  width: 3px;
+  height: 3px;
+  margin: 0px 8px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+  content: "";
+}
+
+.checkup__text-link {
+  font-size: 14px;
+  color: var(--text-color-gray);
+  text-decoration: none;
+}
+
+.checkup__text-link--black {
+  color: var(--text-color-dark);
+}
+
+.checkup__title {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--text-color-dark);
+}
+
+.checkup__title-orange {
+  color: #FFBD54;
+}
+
+.checkup__descr {
+  margin: 0;
+  margin-bottom: 22px;
+  line-height: 20px;
+  color: var(--text-color-gray);
+}
+
+.checkup__descr--end {
+  margin-bottom: 64px;
+}
+
+.checkup__link-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkup__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 36px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: var(--font-weight-medium);
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  -o-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.checkup__link:active {
+  opacity: 0.6;
+}
+
+.checkup__link--price {
+  margin-right: 21px;
+  background-color: #FFBD54;
+}
+
+.checkup__link--price:hover {
+  background-color: #333333;
+  color: #FFBD54;
+}
+
+.checkup__link--price::before {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  background-image: url("../images/coins-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.checkup__link--document {
+  background-color: #333333;
+}
+
+.checkup__link--document:hover {
+  background-color: #FFBD54;
+  color: var(--text-color-dark);
+}
+
+.checkup__link--document::before {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  background-image: url("../images/document-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.checkup__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checkup__item {
+  width: 305px;
+  height: 435px;
+  margin-bottom: 11px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  -o-transition: filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+
+.checkup__item:last-child {
+  margin-bottom: 0;
+}
+
+/* **** QUESTION START **** */
+
+.question {
+  position: relative;
+  margin-bottom: 187px;
+  padding: 65.5px 0px;
+  background-image: url("../images/article-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.question__wrap {
+  display: flex;
+}
+
+.question__title-wrap {
+  width: 267px;
+  margin-right: 61px;
+  margin-left: 100px;
+}
+
+.question__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 56px;
+  line-height: 62px;
+  color: #fff;
+}
+
+.question__descr {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.feedback__btn--black{
+  background-color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.feedback__btn--black:hover{
+  background-color: #FFBD54;
+  color: #000;
+}
+
+.feedback__btn--black:active{
+  opacity: 0.6;
+}
+
+.question__img {
+  position: absolute;
+  top: -50px;
+  left: calc(50% + 40px);
+}
+
 /* *************** MODAL START ************* */
 
 .modal {
@@ -2730,5 +2977,10 @@ only screen and (min-resolution: 2dppx) {
 
   .article-hero {
     background-image: url("../images/article-hero@2x.png");
+  }
+
+  .inspection-hero {
+    background-image: url("../images/inspection-hero@2x.jpg");
+    background-size: contain;
   }
 }
